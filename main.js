@@ -343,5 +343,3 @@ async function _quickTest() {
 _quickTest()
     .then(() => conn.logger.info('☑️ Quick Test Done , nama file session ~> creds.json'))
     .catch(console.error)
-
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
